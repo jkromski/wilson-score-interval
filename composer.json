@@ -1,0 +1,22 @@
+{
+    "name": "jkromski/wilson-score-interval",
+    "description": "Wilson Score Inverval",
+	"keyword": ["wilson", "score", "interval", "rank algorithm"],
+	"homepage": "https://github.com/jkromski/wilson-score-interval",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require" : {
+        "php" : ">=5.5"
+    },
+	"authors": [
+        {
+            "name": "BillAlen"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ScoreInterval\\": "src"
+        }
+    }
+}
